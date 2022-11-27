@@ -1,0 +1,12 @@
+---
+  server:
+    port: ${PORT:8189}
+
+  spring:
+    datasource:
+      url: jdbc:postgresql://localhost:5444/tracker-api
+      username: admin
+      password: admin
+    jpa:
+      hibernate:
+        ddl-auto: update
